@@ -1,0 +1,116 @@
+body{
+  background-color: heathergrey;
+  font-family: Georgia, serif;
+  
+}
+
+
+
+h1 {
+  color: black;
+  text-align: center;
+
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 28px;
+}
+
+h4 {
+  color: black;
+  font-size: 22px;
+  text-align: wrap;
+  font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin-left: 2em;
+margin-right: 2em;
+}
+
+h5 {
+  color: black;
+  font-size: 22px;
+  text-align: wrap;
+}
+
+p {
+  color: black;
+  text-align: wrap;
+  font-size: 22px;
+  line-height: 2em;
+}
+
+img {
+  width: 80%;
+  padding-top: 4em;
+}
+
+div.icon.work {
+  padding-right: 15em;
+  padding-left: 15em;
+  align-items: center;
+
+}
+
+img.mosque {
+  padding-top: 4em;
+}
+
+img.lira {
+  padding-top: 4em;
+  padding-right: 15em;
+}
+
+img.apartment {
+  padding-top: 4em;
+  padding-right: 15em;
+
+}
+
+div.maincontainer {
+  background-color: white;
+  line-height: 75px;
+  font-size: 14px;
+  margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: auto;
+    background-color: white;
+    border-color: black;
+    border: 2px solid;
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+div.iconcontainer{
+  flex-basis: inherit;
+  display: block;
+  position: relative;
+  top: 2px;
+  bottom: 2px;
+}
+div.textcontainer{
+  flex-basis: inherit;
+  display: block;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/*Tablet and Deskstop CSS*/
+@media(min-width: 681px) {
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex>div{
+    flex-basis: 30%;
+  }
+}
+ /*Desktop-Only CSS*/
+@media(min-width: 780px) {
+   img.icon{
+    width: 75%;
+   }
+}
+
